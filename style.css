@@ -1,15 +1,15 @@
 @font-face {
     font-family: "maTypo";
-    src: url(/imgs/dejavu-sans-mono/DejaVuSansMono.ttf);
+    src: url(./imgs/dejavu-sans-mono/DejaVuSansMono.ttf);
 }
 @font-face {
     font-family: "maTypoOblique";
-    src: url(/imgs/dejavu-sans-mono/DejaVuSansMono-BoldOblique.ttf);
+    src: url(./imgs/dejavu-sans-mono/DejaVuSansMono-BoldOblique.ttf);
 }
 
 @font-face {
     font-family: "maTypoH2";
-    src: url(/imgs/Montserrat-Bold.ttf);
+    src: url(./imgs/Montserrat-Bold.ttf);
 }
 
 
@@ -20,7 +20,7 @@ html{
     padding: 0;
     margin: 0;
     
-    background-image: url(/imgs/Fichier\ 4.png);
+    background-image: url(./imgs/Fichier\ 4.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y:80px;
