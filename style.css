@@ -64,6 +64,9 @@ h2{
 p{
     max-width: 400px;
 }
+#agent{
+    font-size: 22px;
+}
 
 #nom{
     font-family: "maTypoOblique";
