@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "maTypo";
+    src: url(/imgs/dejavu-sans-mono/DejaVuSansMono.ttf);
+}
+@font-face {
+    font-family: "maTypoOblique";
+    src: url(/imgs/dejavu-sans-mono/DejaVuSansMono-BoldOblique.ttf);
+}
+
+@font-face {
+    font-family: "maTypoH2";
+    src: url(/imgs/Montserrat-Bold.ttf);
+}
+
+
+
+html{
+    font-family: maTypo;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+    background-image: url(/imgs/Fichier\ 4.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:80px;
+    background-attachment: fixed;
+
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+
+    
+    
+}
+
+header{
+    background-color: #ff00007c;
+    padding: 10px;
+}
+
+main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-family: maTypoH2;
+}
+
+
+.paragraphe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+p{
+    max-width: 400px;
+}
+
+#nom{
+    font-family: "maTypoOblique";
+}
+
+#red{
+    color: red;
+}
+
+.icone{
+    height: auto;
+    width: 30px;
+}
