@@ -84,18 +84,23 @@ p{
 form{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     margin-bottom: 100px;
     align-items: center;
 }
 
-button{
+#button{
     background-color: #ff00007c;
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
-    max-width: 80%;
 
+}
+
+
+
+#button:active{
+    background-color: rgba(243, 60, 60, 0.486);
 }
 
 #answer{

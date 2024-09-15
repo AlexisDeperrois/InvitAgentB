@@ -36,7 +36,7 @@ const enigme = {
         document.querySelector("#react").textContent = text
 
         if(isApproved){
-            document.querySelector("#idOk").textContent = " Un mot de passe vous sera demandé lors de votre arrivée sur le lieu de la mission. Le voici , mémorisez le bien !"
+            document.querySelector("#idOk").textContent = "Un mot de passe vous sera demandé lors de la mission. Le voici, mémorisez le bien !"
             document.querySelector("#mdp").textContent = "Gardons la baguette qui guette le guet du guetteur."
             answerDiv.classList.add("success")
             answerDiv.classList.remove("failed")
@@ -48,11 +48,7 @@ const enigme = {
         }
         
         
-        document.querySelector("#idvalue").textContent = " Un mot de passe vous sera demandé lors de votre arrivée sur le lieu de la mission. Le voici , mémorisez le bien !"
-
-
-
-            
+                
 
 
     },
