@@ -68,7 +68,7 @@ p{
     font-size: 22px;
 }
 
-#nom{
+.bold{
     font-family: "maTypoOblique";
 }
 
@@ -79,4 +79,36 @@ p{
 .icone{
     height: auto;
     width: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+button{
+    background-color: #ff00007c;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 80%;
+
+}
+
+#answer{
+    border-radius: 15px;
+    padding: 10px 20px;
+
+}
+
+.failed{
+    background-color: rgb(255, 40, 40);
+
+}
+
+.success{
+    background-color: rgb(72, 196, 72);
 }
