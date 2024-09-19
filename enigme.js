@@ -1,18 +1,20 @@
 const enigme = {
 
     init:function(){
-        let button = document.querySelector("#button")
+        let buttons = document.querySelectorAll("button")
+        for ( let button of buttons){
         button.addEventListener("click", enigme.checkAnswer)
+         }
     },
 
     checkAnswer:function(event){
         event.preventDefault()
 
         let isApproved = false
-        let text = "Vous devez choisir une réponse"
-        let Answer = document.querySelector("select").value
-        console.log(Answer)
+        let text = null
 
+        let Answer = event.target.value
+      
         switch(Answer){
             case 'phasmes':
                 text = "Bonne réponse ! Le chat était également accepté. Votre identité est confirmée."
@@ -45,12 +47,7 @@ const enigme = {
             answerDiv.classList.remove("success")
             document.querySelector("#idOk").textContent = null
             document.querySelector("#mdp").textContent = null
-        }
-        
-        
-                
-
-
+        }   
     },
 
     

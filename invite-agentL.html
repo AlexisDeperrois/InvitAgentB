@@ -27,22 +27,21 @@
         <p>Néanmoins, avant de vous les communiquer, nous avons besoin de nous assurer de votre identité.</p>
         <p>Merci de répondre à la question suivante pour prouver votre appartenance à l'équipe. </p>
 
-        <form action="#">
-            <label for=""> Quel est l'animal de compagnie d'Elia ?  </label>
-            <select name="" id="">
-                <option value="empty">Choisissez votre réponse </option>
-                <option value="chat">Un chat</option>
-                <option value="phasmes">Des phasmes</option>
-                <option value="fratrie">Un frère et une soeur </option>
-                <option value="parents">Des parents</option>
-            </select>
-            <input id="button" type="submit" value="Valider">
+        <div id="question" action="#">
+            <h2 > Quel est l'animal de compagnie d'Elia ?  </h2>
+            <div id="choices">
+                <button value="chat">Un chat</button>  
+                <button value="fratrie">Un frère et une soeur</button>
+                <button value="phasmes">Des phasmes</button>              
+                <button value="parents">Des parents</button>
+            </div>
+
             <div id="answer">
                 <p id="react"></p>
                 <p id="idOk"></p>
                 <p id="mdp" class="bold"></p>
             </div>
-        </form>
+        </div>
         
 
         <p>Pour rappel les détails de la mission sont :</p>
