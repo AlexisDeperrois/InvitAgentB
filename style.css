@@ -68,7 +68,7 @@ p{
     font-size: 22px;
 }
 
-#nom{
+.bold{
     font-family: "maTypoOblique";
 }
 
@@ -79,4 +79,49 @@ p{
 .icone{
     height: auto;
     width: 30px;
+}
+
+#choices{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    justify-content: center;
+
+}
+button{
+    background-color: #ff00007c;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+button:active{
+    background-color: rgba(243, 60, 60, 0.486);
+}
+
+#answer{
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+
+#answer>*{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.failed{
+    background-color: rgb(255, 40, 40);
+
+}
+
+.success{
+    background-color: rgb(72, 196, 72);
 }
